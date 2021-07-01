@@ -1,0 +1,24 @@
+{
+	"redis": {
+		"host": "",
+		"port": 6379,
+		"db": 0,
+		"password": "***",
+		
+		"camel_case": true,
+		"enable_offline_queue": false,
+		"disable_resubscribing": true
+	},
+	
+	"attachment": {
+		"port": 10000,
+		"host": "localhost"
+	},
+	
+	"service": {
+		"method": "POST",
+		"path": "/echoAtTime",
+		"timeParameter": "ts",
+		"maxMessageLength": 10000
+	}
+}
